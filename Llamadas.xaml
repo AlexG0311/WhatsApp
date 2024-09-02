@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WhastApp.Llamadas"
+             Title="Llamadas">
+    <ContentPage.Content >
+        <Grid>
+            <!-- Detectores de Gestos de Deslizamiento -->
+            <Grid.GestureRecognizers>
+                <!-- No se maneja el deslizamiento hacia la izquierda en Llamadas -->
+                <SwipeGestureRecognizer Direction="Right" Swiped="OnSwiped" />
+            </Grid.GestureRecognizers>
+
+            <VerticalStackLayout Padding="10" BackgroundColor="#0b141b">
+                <CollectionView x:Name="LlamadasCollection">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid ColumnDefinitions="auto,*">
+                                <!-- Imagen de perfil -->
+                                <Image Source="{Binding Imagen}" 
+                                       WidthRequest="50" 
+                                       HeightRequest="50" 
+                                       Aspect="AspectFill"
+                                       VerticalOptions="Center"
+                                       Margin="0,0,9,9">
+                                    
+                                    <Image.Clip>
+                                        <EllipseGeometry Center="25,25" RadiusX="25" RadiusY="25"/>
+                                    </Image.Clip>
+                                </Image>
+
+                                <!-- Detalles de la llamada -->
+                                <StackLayout Grid.Column="1" Spacing="2" Padding="5">
+                                    <Label Text="{Binding Nombre}" 
+                                           FontAttributes="Bold" 
+                                           FontSize="16" 
+                                           TextColor="Red"/>
+                                    <StackLayout Orientation="Horizontal" Spacing="5">
+                                        <Image Source="{Binding IconoDireccionLlamada}" 
+                                               WidthRequest="20" 
+                                               HeightRequest="20"/>
+                                        <Label Text="{Binding Fecha}" 
+                                               FontSize="14" 
+                                               TextColor="Gray"/>
+                                    </StackLayout>
+                                </StackLayout>
+
+                                <!-- Icono de llamada -->
+                                <Image Grid.Column="2" 
+                                       Source="{Binding IconoTipoLlamada}" 
+                                       WidthRequest="30" 
+                                       HeightRequest="30" 
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="End"/>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </VerticalStackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

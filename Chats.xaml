@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WhastApp.Chats"
+             Title="WhatsApp"
+             BackgroundColor="#0b141b">
+
+    <ContentPage.Content>
+        <Grid RowDefinitions="Auto,*">
+            <!-- Definimos una fila automática y otra que se expande -->
+            <!-- Sección Archivados -->
+            <StackLayout Orientation="Horizontal" Padding="10" Spacing="10" VerticalOptions="Start" Grid.Row="0">
+                <!-- Imagen del icono de Archivados -->
+                <Image Source="archivado.png" WidthRequest="20" HeightRequest="24" VerticalOptions="Center"/>
+                <!-- Texto de Archivados -->
+                <Label Text="Archivados" FontSize="16" TextColor="White" VerticalOptions="Center"/>
+            </StackLayout>
+
+            <!-- CollectionView con Scroll -->
+            <ScrollView Grid.Row="1" VerticalOptions="FillAndExpand">
+                <!-- Añadimos un ScrollView para habilitar el desplazamiento -->
+                <CollectionView x:Name="ch" BackgroundColor="#0b141b">
+                    <CollectionView.GestureRecognizers>
+                        <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped" />
+                        <SwipeGestureRecognizer Direction="Right" Swiped="OnSwiped" />
+                    </CollectionView.GestureRecognizers>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Padding="10" ColumnDefinitions="auto,*,auto">
+                                <!-- Imagen de perfil redonda -->
+                                <Frame WidthRequest="50" HeightRequest="50"  Margin="0,0,9,9"   CornerRadius="25" IsClippedToBounds="True" HasShadow="False" Padding="0">
+                                    <Image Source="{Binding Imagen}" Aspect="AspectFill" />
+                                </Frame>
+
+                                <!-- Detalles del chat -->
+                                <StackLayout Grid.Column="1" Spacing="2">
+                                    <Label Text="{Binding Nombre}" FontAttributes="Bold" FontSize="16"/>
+                                    <Label Text="{Binding UltimoMensaje}" FontSize="14" TextColor="Gray" />
+                                </StackLayout>
+
+                                <!-- Hora del mensaje -->
+                                <Label Grid.Column="2" Text="{Binding Hora}" FontSize="12" TextColor="Gray" 
+                                       VerticalOptions="Start" HorizontalOptions="End"/>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

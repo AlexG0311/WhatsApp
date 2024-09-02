@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="WhastApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:WhastApp"
+    Shell.FlyoutBehavior="Disabled"
+    Title="WhastApp"
+    BackgroundColor="#0b141b"
+    Shell.TabBarForegroundColor="#00C853"   
+    Shell.TabBarBackgroundColor="#0b141b"
+    Shell.TabBarUnselectedColor="Gray"
+    Shell.TabBarTitleColor="White" >
+
+
+    <TabBar>
+        <ShellContent Title="Chats" Icon="chat.png" ContentTemplate="{DataTemplate local:Chats}" Route="Chats" />
+        <ShellContent Title="Novedades" Icon="novedades.png" ContentTemplate="{DataTemplate local:Novedades}" Route="Novedades" />
+        <ShellContent Title="Comunidades" Icon="comunidades.png" ContentTemplate="{DataTemplate local:Comunidades}" Route="Comunidades" />
+        <ShellContent Title="Llamadas" Icon="telefono.png" ContentTemplate="{DataTemplate local:Llamadas}" Route="Llamadas" />
+    </TabBar>
+
+</Shell>

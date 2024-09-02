@@ -1,0 +1,71 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WhastApp
+build_property.ProjectDir = C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/WhastApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/WhastApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/WhastApp/Chats.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.Chats.xaml
+build_metadata.AdditionalFiles.TargetPath = Chats.xaml
+build_metadata.AdditionalFiles.RelativePath = Chats.xaml
+
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/WhastApp/Comunidades.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.Comunidades.xaml
+build_metadata.AdditionalFiles.TargetPath = Comunidades.xaml
+build_metadata.AdditionalFiles.RelativePath = Comunidades.xaml
+
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/WhastApp/Llamadas.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.Llamadas.xaml
+build_metadata.AdditionalFiles.TargetPath = Llamadas.xaml
+build_metadata.AdditionalFiles.RelativePath = Llamadas.xaml
+
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/WhastApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/WhastApp/Novedades.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.Novedades.xaml
+build_metadata.AdditionalFiles.TargetPath = Novedades.xaml
+build_metadata.AdditionalFiles.RelativePath = Novedades.xaml
+
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/WhastApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/WhastApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
