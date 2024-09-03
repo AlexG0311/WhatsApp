@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WhastApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c1ceb80ab4b07772d6ec4f845f9f448f89c732ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("WhastApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WhastApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

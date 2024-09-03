@@ -31,14 +31,16 @@
 
             <CollectionView x:Name="canales1"
                             >
+               
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Grid ColumnDefinitions="50,*,auto"
                               RowDefinitions="auto, auto">
-                            <Image Source="{Binding Imagen}" 
+                            <Image Source="{Binding Imagen1}" 
                                    Grid.Column="0"
-                                   Margin="5"
+                                   Margin="0,0,0,0"
                                    HeightRequest="50"
+                                   
                                    WidthRequest="50"
                                    Aspect="AspectFill">
                                 <Image.Clip>
@@ -49,23 +51,27 @@
                             <Label Text="{Binding Nombre}" 
                                    Grid.Column="1"
                                    Grid.Row="0"
-                                   Margin="5,0"
+                                   Margin="15,0,0,15"
                                    VerticalOptions="Center"
                                    FontAttributes="Bold"/>
 
                             <Label Text="{Binding Actualizacion}"
                                    Grid.Column="2"
                                    Grid.Row="0"
-                                   Margin="5"
+                                   Margin="20"
+                                   
+                                   FontAttributes="Bold"
+                                   TextColor="#21c063"
                                    VerticalOptions="CenterAndExpand"
-                                   FontSize="10"
+                                   FontSize="11"
                                    HorizontalOptions="End"/>
 
                             <Label Text="{Binding Mensaje}" 
                                    Grid.Column="1"
                                    Grid.Row="1"
-                                   Margin="5,0"
-                                   FontSize="10"
+                                   FontAttributes="Bold"
+                                   Margin="5,0,0,0"
+                                   FontSize="14"
                                    TextColor="Gray"/>
                         </Grid>
                     </DataTemplate>

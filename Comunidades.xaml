@@ -6,15 +6,52 @@
     <ContentPage.Content BackgroundColor="#0b141b">
         <Grid>
             <!-- Detectores de Gestos de Deslizamiento -->
-            <Grid.GestureRecognizers>
-                <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped" />
-                <SwipeGestureRecognizer Direction="Right" Swiped="OnSwiped" />
-            </Grid.GestureRecognizers>
+        
 
             <StackLayout BackgroundColor="#0b141b">
-                <Label Text=""
-                       VerticalOptions="CenterAndExpand"
-                       HorizontalOptions="CenterAndExpand" />
+                <Image
+                    Source="cm.png"
+                    WidthRequest="200"
+                    Margin="20,20"/>
+
+                <Label
+                    Text="Usa una comunidad para mantener en contacto"
+                    FontSize="24"
+                    FontAttributes="Bold"
+                    Margin="50,0"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    />
+
+                <Label Text="Las comunidades reúnen a los miembros en grupos por temas y facilitan la recepción de avisos de los administradores. Cualquier comunidad a la que te añadan aparecerá aquí."
+                    FontSize="14"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    TextColor="LightGray"
+                    LineBreakMode="WordWrap"
+                    Margin="40,10,40,6"/>
+
+                <Label Text="Ver comunidades de ejemplo >"
+                   FontSize="15"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   TextColor="#37a768"/>
+
+                <Button Text="Iniciar tu comunidad"
+                   FontSize="14"
+                    FontAttributes="Bold"
+                   Padding="10,0"
+                  
+                   HeightRequest="36"
+                   HorizontalOptions="Center"
+                   BackgroundColor="#21c063"
+                   TextColor="Black"
+                   CornerRadius="25"
+                   WidthRequest="310"
+                   Margin="20,30"/>
+
+
+
             </StackLayout>
         </Grid>
     </ContentPage.Content>

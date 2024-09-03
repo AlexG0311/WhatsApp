@@ -20,10 +20,7 @@
             <ScrollView Grid.Row="1" VerticalOptions="FillAndExpand">
                 <!-- Añadimos un ScrollView para habilitar el desplazamiento -->
                 <CollectionView x:Name="ch" BackgroundColor="#0b141b">
-                    <CollectionView.GestureRecognizers>
-                        <SwipeGestureRecognizer Direction="Left" Swiped="OnSwiped" />
-                        <SwipeGestureRecognizer Direction="Right" Swiped="OnSwiped" />
-                    </CollectionView.GestureRecognizers>
+                   
 
                     <CollectionView.ItemTemplate>
                         <DataTemplate>

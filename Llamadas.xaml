@@ -6,10 +6,7 @@
     <ContentPage.Content >
         <Grid>
             <!-- Detectores de Gestos de Deslizamiento -->
-            <Grid.GestureRecognizers>
-                <!-- No se maneja el deslizamiento hacia la izquierda en Llamadas -->
-                <SwipeGestureRecognizer Direction="Right" Swiped="OnSwiped" />
-            </Grid.GestureRecognizers>
+           
 
             <VerticalStackLayout Padding="10" BackgroundColor="#0b141b">
                 <CollectionView x:Name="LlamadasCollection">

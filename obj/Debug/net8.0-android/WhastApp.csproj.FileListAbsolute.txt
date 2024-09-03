@@ -1034,6 +1034,9 @@ C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj
 C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\novedades.png
 C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\telefono.png
 C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\video.png
+C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\archivado.png
+C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\cm.png
+C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\WhastApp.sourcelink.json
 C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
 C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
 C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll
@@ -1043,4 +1046,8 @@ C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj
 C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\android\marshal_methods.arm64-v8a.o
 C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\android\jni_remap.arm64-v8a.o
 C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
-C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\archivado.png
+C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\baarcelona.jpg
+C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\eeal.png
+C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\iiverpool.jpg
+C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\netflix.png
+C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\redbull.jpg

@@ -24,35 +24,35 @@ public partial class Novedades : ContentPage
 
         Estadoss.Add(new Estados
         {
-            Name = "Estad",
+            Name = "Sara",
             Image = "manwhite.png",
 
 
         });
         Estadoss.Add(new Estados
         {
-            Name = "Estado1",
+            Name = "Andrea",
             Image = "manwhite.png",
 
 
         });
         Estadoss.Add(new Estados
         {
-            Name = "Estado2",
+            Name = "Luis",
             Image = "manwhite.png",
 
 
         });
         Estadoss.Add(new Estados
         {
-            Name = "Estado3",
+            Name = "Carlos",
             Image = "manwhite.png",
 
 
         });
         Estadoss.Add(new Estados
         {
-            Name = "Estado3",
+            Name = "Brayan",
             Image = "manwhite.png",
 
 
@@ -60,7 +60,7 @@ public partial class Novedades : ContentPage
 
         Estadoss.Add(new Estados
         {
-            Name = "Estado3",
+            Name = "James",
             Image = "manwhite.png",
 
 
@@ -74,20 +74,20 @@ public partial class Novedades : ContentPage
 
         Canales1.Add(new Canales
         {
-            Nombre = "Pepito1",
-            Imagen1 = "manwhite.png",
-            Actualizacion = "",
-            Mensaje = "Hola",
+            Nombre = "Real Madrid F.C",
+            Imagen1 = "eeal.png",
+            Actualizacion = "12:47 p.m.",
+            Mensaje = "Vamos Por la 16",
 
 
         });
 
         Canales1.Add(new Canales
         {
-            Nombre = "Pepito1",
-            Imagen1 = "manwhite.png",
-            Actualizacion = "",
-            Mensaje = "Hola",
+            Nombre = "Red Bull",
+            Imagen1 = "redbull.jpg",
+            Actualizacion = "06:22 a.m.",
+            Mensaje = "Compra mas red bull",
 
 
         });
@@ -95,21 +95,10 @@ public partial class Novedades : ContentPage
 
         Canales1.Add(new Canales
         {
-            Nombre = "Pepito1",
-            Imagen1 = "manwhite.png",
-            Actualizacion = "",
-            Mensaje = "Hola",
-
-
-
-        });
-
-        Canales1.Add(new Canales
-        {
-            Nombre = "Pepito1",
-            Imagen1 = "manwhite.png",
-            Actualizacion = "",
-            Mensaje = "Hola",
+            Nombre = "Netflix",
+            Imagen1 = "netflix.png",
+            Actualizacion = "03:20 a.m.",
+            Mensaje = "Nueva Serie",
 
 
 
@@ -117,12 +106,21 @@ public partial class Novedades : ContentPage
 
         Canales1.Add(new Canales
         {
-            Nombre = "Pepito1",
-            Imagen1 = "manwhite.png",
-            Actualizacion = "",
-            Mensaje = "Hola",
+            Nombre = "FC Barcelona",
+            Imagen1 = "baarcelona.jpg",
+            Actualizacion = "11:41 a.m.",
+            Mensaje = "Esta Champions es la nuestra",
 
 
+
+        });
+
+        Canales1.Add(new Canales
+        {
+            Nombre = "Liverpool",
+            Imagen1 = "iiverpool.jpg",
+            Actualizacion = "03:22 p.m.",
+            Mensaje = "Gol de Luis Diaz",
 
         });
 
