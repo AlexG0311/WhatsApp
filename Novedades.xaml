@@ -4,18 +4,34 @@
              x:Class="WhastApp.Novedades"
              Title="Novedades"
              >
+
+    <ContentPage.ToolbarItems >
+
+
+
+        <ToolbarItem Text="Nuevo grupo" Order="Secondary"/>
+        <ToolbarItem Text="Nueva difusion" Order="Secondary"/>
+        <ToolbarItem Text="Dispositivos vinculados" Order="Secondary"/>
+        <ToolbarItem Text="Mensajes destacados" Order="Secondary"/>
+        <ToolbarItem Text="Ajustes" Order="Secondary"/>
+
+
+    </ContentPage.ToolbarItems>
     <ScrollView>
+
         <VerticalStackLayout BackgroundColor="#0b141b">
 
             <Label
                 Text="Estados"
                 FontSize="Title"/>
+            
+
             <CollectionView x:Name="Collection" ItemsSource="{Binding Estados}" ItemsLayout="HorizontalList">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Padding="5">
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Padding="5" >
                             <Frame HasShadow="False" BorderColor="Gray" CornerRadius="50" Padding="2">
-                                <Image Source="{Binding Image}" WidthRequest="70" HeightRequest="70" Aspect="AspectFill" />
+                                <Image Source="{Binding Image}" WidthRequest="70" HeightRequest="70" Aspect="AspectFill"/>
                             </Frame>
                             <Label Text="{Binding Name}" FontSize="14" TextColor="White" HorizontalTextAlignment="Center"/>
                         </StackLayout>
@@ -34,11 +50,11 @@
                
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Grid ColumnDefinitions="50,*,auto"
-                              RowDefinitions="auto, auto">
+                        <Grid ColumnDefinitions="auto,*,auto"
+                             >
                             <Image Source="{Binding Imagen1}" 
                                    Grid.Column="0"
-                                   Margin="0,0,0,0"
+                                   Margin="10,5"
                                    HeightRequest="50"
                                    
                                    WidthRequest="50"
@@ -47,13 +63,21 @@
                                     <EllipseGeometry Center="25,25" RadiusX="25" RadiusY="25"/>
                                 </Image.Clip>
                             </Image>
-
-                            <Label Text="{Binding Nombre}" 
-                                   Grid.Column="1"
-                                   Grid.Row="0"
-                                   Margin="15,0,0,15"
+                            <StackLayout Grid.Column="1">
+                                <Label Text="{Binding Nombre}" 
+                                  
+                                  Margin="5,9"
                                    VerticalOptions="Center"
                                    FontAttributes="Bold"/>
+                                <StackLayout>
+                            <Label Text="{Binding Mensaje}" 
+                                   FontAttributes="Bold"
+                                   Margin="5,0"
+                                   FontSize="14"
+                                   TextColor="Gray"/>
+                                </StackLayout>
+                            
+                            </StackLayout>
 
                             <Label Text="{Binding Actualizacion}"
                                    Grid.Column="2"
@@ -65,14 +89,6 @@
                                    VerticalOptions="CenterAndExpand"
                                    FontSize="11"
                                    HorizontalOptions="End"/>
-
-                            <Label Text="{Binding Mensaje}" 
-                                   Grid.Column="1"
-                                   Grid.Row="1"
-                                   FontAttributes="Bold"
-                                   Margin="5,0,0,0"
-                                   FontSize="14"
-                                   TextColor="Gray"/>
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
@@ -84,14 +100,16 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout Padding="5">
-                            <Frame HasShadow="False" BorderColor="Transparent" CornerRadius="15" Padding="10" WidthRequest="140">
+                            <Frame HasShadow="False" BorderColor="gray" BackgroundColor="Transparent" CornerRadius="11" Padding="10" WidthRequest="140">
                                 <StackLayout>
-                                    <Image Source="{Binding Imagen}" WidthRequest="50" HeightRequest="50" Aspect="AspectFill"/>
+                                    <Frame CornerRadius="120" HeightRequest="70" WidthRequest="70">
+                                        <Image Source="{Binding Imagen}" WidthRequest="50" HeightRequest="50" Aspect="AspectFill" />
+                                    </Frame>
                                     <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                                        <Label Text="{Binding Nombre}" FontSize="14" TextColor="black" />
+                                        <Label Text="{Binding Nombre}" FontSize="14" TextColor="white"  Margin="5,9"/>
                                         <Image Source="verificado.png" WidthRequest="14" HeightRequest="14" IsVisible="{Binding Verificado}" />
                                     </StackLayout>
-                                    <Button Text="Seguir" BackgroundColor="Green" TextColor="White" FontSize="14" CornerRadius="10"/>
+                                    <Button Text="Seguir" BackgroundColor="Green"  Padding="0" TextColor="White" FontSize="14" CornerRadius="40" HeightRequest="31" WidthRequest="120"/>
                                 </StackLayout>
                             </Frame>
                         </StackLayout>

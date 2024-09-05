@@ -24,6 +24,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/WhastApp/ChatPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.ChatPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ChatPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ChatPage.xaml
+
 [C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/WhastApp/Chats.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.Chats.xaml
@@ -35,6 +41,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.Comunidades.xaml
 build_metadata.AdditionalFiles.TargetPath = Comunidades.xaml
 build_metadata.AdditionalFiles.RelativePath = Comunidades.xaml
+
+[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/WhastApp/General.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.General.xaml
+build_metadata.AdditionalFiles.TargetPath = General.xaml
+build_metadata.AdditionalFiles.RelativePath = General.xaml
 
 [C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/WhastApp/Llamadas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

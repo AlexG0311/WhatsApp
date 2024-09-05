@@ -3,11 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WhastApp.Llamadas"
              Title="Llamadas">
-    <ContentPage.Content >
-        <Grid>
-            <!-- Detectores de Gestos de Deslizamiento -->
-           
 
+    <ContentPage.ToolbarItems>        
+        <ToolbarItem IconImageSource="camara"  Order="Primary"    />
+
+        <ToolbarItem IconImageSource="lupa" Order="Primary"/>
+        <ToolbarItem Text="Borrar historial de llamadas" Order="Secondary"/>
+        <ToolbarItem Text="Ajustes" Order="Secondary"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content >
+        
+        
+        <Grid>
+      
             <VerticalStackLayout Padding="10" BackgroundColor="#0b141b">
                 <CollectionView x:Name="LlamadasCollection">
                     <CollectionView.ItemTemplate>
@@ -27,7 +35,7 @@
                                 </Image>
 
                                 <!-- Detalles de la llamada -->
-                                <StackLayout Grid.Column="1" Spacing="2" Padding="5">
+                                <StackLayout Grid.Column="1" Spacing="0" Padding="5">
                                     <Label Text="{Binding Nombre}" 
                                            FontAttributes="Bold" 
                                            FontSize="16" 

@@ -3,25 +3,40 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WhastApp.Chats"
              Title="WhatsApp"
-             BackgroundColor="#0b141b">
+             BackgroundColor="#0b141b"
+             >
+
+    <ContentPage.ToolbarItems >
+       
+        <ToolbarItem IconImageSource="camara"  Order="Primary"    />
+        <ToolbarItem Text="Nuevo grupo" Order="Secondary"/>
+        <ToolbarItem Text="Nueva difusion" Order="Secondary"/>
+        <ToolbarItem Text="Dispositivos vinculados" Order="Secondary"/>
+        <ToolbarItem Text="Mensajes destacados" Order="Secondary"/>
+        <ToolbarItem Text="Ajustes" Order="Secondary"/>
+
+    </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
+        
+        
+    
         <Grid RowDefinitions="Auto,*">
-            <!-- Definimos una fila automática y otra que se expande -->
-            <!-- Sección Archivados -->
+        
             <StackLayout Orientation="Horizontal" Padding="10" Spacing="10" VerticalOptions="Start" Grid.Row="0">
-                <!-- Imagen del icono de Archivados -->
+               
                 <Image Source="archivado.png" WidthRequest="20" HeightRequest="24" VerticalOptions="Center"/>
-                <!-- Texto de Archivados -->
+          
                 <Label Text="Archivados" FontSize="16" TextColor="White" VerticalOptions="Center"/>
             </StackLayout>
 
-            <!-- CollectionView con Scroll -->
+           
             <ScrollView Grid.Row="1" VerticalOptions="FillAndExpand">
-                <!-- Añadimos un ScrollView para habilitar el desplazamiento -->
-                <CollectionView x:Name="ch" BackgroundColor="#0b141b">
-                   
-
+              
+                <CollectionView x:Name="ch" BackgroundColor="#0b141b"
+                       SelectionChanged="ch_SelectionChanged"
+                                
+                            SelectionMode="Single">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
                             <Grid Padding="10" ColumnDefinitions="auto,*,auto">
@@ -33,7 +48,8 @@
                                 <!-- Detalles del chat -->
                                 <StackLayout Grid.Column="1" Spacing="2">
                                     <Label Text="{Binding Nombre}" FontAttributes="Bold" FontSize="16"/>
-                                    <Label Text="{Binding UltimoMensaje}" FontSize="14" TextColor="Gray" />
+                                    <Label Text="{Binding UltimoMensaje}" FontSize="14" TextColor="Gray"/>
+                                    
                                 </StackLayout>
 
                                 <!-- Hora del mensaje -->

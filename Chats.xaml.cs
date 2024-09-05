@@ -92,14 +92,22 @@ public partial class Chats : ContentPage
     }
        
 
-    private async void OnSwiped(object sender, SwipedEventArgs e)
+    private void ch_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
-        if (e.Direction == SwipeDirection.Left)
+        if(ch.SelectedItem != null) {
+            ch.SelectedItem = null;
+        // Verificamos si se ha seleccionado un chat
+        var selectedChat = (ModelChats)e.CurrentSelection.FirstOrDefault();
+
+        if (selectedChat != null)
         {
-            // Navegar a la página de Novedades
-            await Shell.Current.GoToAsync("//Novedades");
+            // Crear una nueva instancia de la página estática
+            var chatPage = new ChatPage();
+
+            // Navegar a la nueva página estática
+            Navigation.PushAsync(chatPage);
         }
-        // No hacer nada si el deslizamiento es hacia la derecha
+    }
     }
 
 }
