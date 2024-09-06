@@ -72,9 +72,6 @@
 	  <MauiXaml Update="Comunidades.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="General.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="Llamadas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

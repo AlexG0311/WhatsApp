@@ -1044,6 +1044,10 @@ C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj
 C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\camara.png
 C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\lupa.png
+C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\cama.png
+C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\cara.png
+C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\micro.png
+C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\resizetizer\r\drawable\clip.png
 C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\android\typemaps.arm64-v8a.ll
 C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\android\environment.arm64-v8a.ll
 C:\Users\alexd\OneDrive\Escritorio\5TO  SEMESTRE\PROGRAMACION MOVIL\WhastApp\obj\Debug\net8.0-android\android\compressed_assemblies.arm64-v8a.ll

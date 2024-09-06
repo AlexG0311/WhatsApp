@@ -7,51 +7,14 @@ namespace WhastApp;
 public partial class ChatPage : ContentPage
 {
 
-    public ObservableCollection<Mensaje> Mensajes { get; set; }
-    public ChatPage()
+    public ModelChats Model { get; set; }
+    public ChatPage(ModelChats model)
 	{
 		InitializeComponent();
 
-        Mensajes = new ObservableCollection<Mensaje>();
+        this.Model = model;
 
-
-        Mensajes.Add(new Mensaje
-
-        {
-            
-            remitente = "Hoola maniiii",
-            usuario = "Como estasssssss",
-
-
-
-        });
-
-        Mensajes.Add(new Mensaje
-        {
-            remitente = "Hoola maniiii",
-            usuario = "Como estasssssss",
-
-
-        });
-
-        Mensajes.Add(new Mensaje
-        {
-            remitente = "Hoola maniiii",
-            usuario = "Como estasssssss",
-
-
-        });
-
-
-        Mensajes.Add(new Mensaje
-        {
-            remitente = "Hoola maniiii",
-            usuario = "Como estasssssss",
-
-
-        });
-
-        mensajes.ItemsSource = Mensajes;
+        this.BindingContext = this;
     }
 
 

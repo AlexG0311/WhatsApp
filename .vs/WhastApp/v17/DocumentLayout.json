@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\WhastApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C5673FA-DEBF-444C-9979-4973E55A865B}|WhastApp.csproj|c:\\users\\alexd\\onedrive\\escritorio\\5to  semestre\\programacion movil\\whastapp\\chats.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C5673FA-DEBF-444C-9979-4973E55A865B}|WhastApp.csproj|solutionrelative:chats.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C5673FA-DEBF-444C-9979-4973E55A865B}|WhastApp.csproj|c:\\users\\alexd\\onedrive\\escritorio\\5to  semestre\\programacion movil\\whastapp\\chatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1C5673FA-DEBF-444C-9979-4973E55A865B}|WhastApp.csproj|solutionrelative:chatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C5673FA-DEBF-444C-9979-4973E55A865B}|WhastApp.csproj|c:\\users\\alexd\\onedrive\\escritorio\\5to  semestre\\programacion movil\\whastapp\\chatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C5673FA-DEBF-444C-9979-4973E55A865B}|WhastApp.csproj|solutionrelative:chatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C5673FA-DEBF-444C-9979-4973E55A865B}|WhastApp.csproj|c:\\users\\alexd\\onedrive\\escritorio\\5to  semestre\\programacion movil\\whastapp\\chats.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1C5673FA-DEBF-444C-9979-4973E55A865B}|WhastApp.csproj|solutionrelative:chats.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C5673FA-DEBF-444C-9979-4973E55A865B}|WhastApp.csproj|c:\\users\\alexd\\onedrive\\escritorio\\5to  semestre\\programacion movil\\whastapp\\model\\modelchats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C5673FA-DEBF-444C-9979-4973E55A865B}|WhastApp.csproj|solutionrelative:model\\modelchats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C5673FA-DEBF-444C-9979-4973E55A865B}|WhastApp.csproj|c:\\users\\alexd\\onedrive\\escritorio\\5to  semestre\\programacion movil\\whastapp\\model\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,41 +42,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ChatPage.xaml",
-              "DocumentMoniker": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\WhastApp\\ChatPage.xaml",
-              "RelativeDocumentMoniker": "ChatPage.xaml",
-              "ToolTip": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\WhastApp\\ChatPage.xaml",
-              "RelativeToolTip": "ChatPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-05T21:31:04.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChatPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\WhastApp\\ChatPage.xaml.cs",
-              "RelativeDocumentMoniker": "ChatPage.xaml.cs",
-              "ToolTip": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\WhastApp\\ChatPage.xaml.cs",
-              "RelativeToolTip": "ChatPage.xaml.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAADQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T21:16:45.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Mensaje.cs",
               "DocumentMoniker": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\WhastApp\\Model\\Mensaje.cs",
               "RelativeDocumentMoniker": "Model\\Mensaje.cs",
               "ToolTip": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\WhastApp\\Model\\Mensaje.cs",
               "RelativeToolTip": "Model\\Mensaje.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T21:16:35.689Z",
+              "WhenOpened": "2024-09-06T04:53:54.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModelChats.cs",
+              "DocumentMoniker": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\WhastApp\\Model\\ModelChats.cs",
+              "RelativeDocumentMoniker": "Model\\ModelChats.cs",
+              "ToolTip": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\WhastApp\\Model\\ModelChats.cs",
+              "RelativeToolTip": "Model\\ModelChats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T04:44:56.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Chats.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\WhastApp\\Chats.xaml.cs",
+              "RelativeDocumentMoniker": "Chats.xaml.cs",
+              "ToolTip": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\WhastApp\\Chats.xaml.cs",
+              "RelativeToolTip": "Chats.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T02:28:45.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatPage.xaml",
+              "DocumentMoniker": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\WhastApp\\ChatPage.xaml",
+              "RelativeDocumentMoniker": "ChatPage.xaml",
+              "ToolTip": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\WhastApp\\ChatPage.xaml",
+              "RelativeToolTip": "ChatPage.xaml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAmwBsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-06T02:28:39.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Chats.xaml",
+              "DocumentMoniker": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\WhastApp\\Chats.xaml",
+              "RelativeDocumentMoniker": "Chats.xaml",
+              "ToolTip": "C:\\Users\\alexd\\OneDrive\\Escritorio\\5TO  SEMESTRE\\PROGRAMACION MOVIL\\WhastApp\\Chats.xaml",
+              "RelativeToolTip": "Chats.xaml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAAAsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-06T02:28:29.821Z",
               "EditorCaption": ""
             }
           ]

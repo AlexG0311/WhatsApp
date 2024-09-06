@@ -24,7 +24,7 @@
         <Grid RowDefinitions="Auto,*">
         
             <StackLayout Orientation="Horizontal" Padding="10" Spacing="10" VerticalOptions="Start" Grid.Row="0">
-               
+                
                 <Image Source="archivado.png" WidthRequest="20" HeightRequest="24" VerticalOptions="Center"/>
           
                 <Label Text="Archivados" FontSize="16" TextColor="White" VerticalOptions="Center"/>

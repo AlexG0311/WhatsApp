@@ -21,9 +21,6 @@
     <MauiXaml Update="Comunidades.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="General.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
     <MauiXaml Update="Llamadas.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

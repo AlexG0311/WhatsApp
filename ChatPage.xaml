@@ -2,79 +2,56 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WhastApp.ChatPage"
-             Title="{Binding Nombre}"
+             Title="{Binding Model.Nombre}"
              Shell.TabBarIsVisible="False">
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="video" Order="Primary" />
+        <ToolbarItem IconImageSource="telefono" Order="Primary" />
+        <ToolbarItem Text="Ver contacto" Order="Secondary"/>
+        <ToolbarItem Text="Archivos, enlaces y docs." Order="Secondary"/>
+        <ToolbarItem Text="Buscar" Order="Secondary"/>
+        <ToolbarItem Text="Mensajes Temporales" Order="Secondary"/>
+        <ToolbarItem Text="Fondo de pantalla" Order="Secondary"/>
+        <ToolbarItem Text="Mas" Order="Secondary"/>
+        <ToolbarItem Text="Ajustes" Order="Secondary"/>
+    </ContentPage.ToolbarItems>
+
     <ContentPage.Content>
-        <Grid RowDefinitions="*, Auto" Padding="0" BackgroundColor="Black">
+        <Grid RowDefinitions="Auto, *, Auto"  Padding="0" BackgroundColor="Black">
 
+        
             <!-- StackLayout para los mensajes -->
-            <ScrollView Grid.Row="0">
-                <CollectionView  x:Name="mensajes">
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <StackLayout Padding="10"  >
-                    <!-- Mensaje del remitente -->
+            <ScrollView Grid.Row="0" VerticalOptions="FillAndExpand">
+                <StackLayout Padding="10">
                     <Frame BackgroundColor="#3A3A3A" CornerRadius="10" Padding="10" HorizontalOptions="Start" Margin="0,5,50,5">
-                        <Label Text="{Binding remitente}" TextColor="White"/>
+                        <Label Text="{Binding Model.remitente}" TextColor="White"/>
                     </Frame>
 
-                    <!-- Mensaje del usuario -->
                     <Frame BackgroundColor="#128C7E" CornerRadius="10" Padding="10" HorizontalOptions="End" Margin="50,5,0,5">
-                        <Label Text="{Binding usuario}" TextColor="White"/>
+                        <Label Text="{Binding Model.usuario}" TextColor="White"/>
                     </Frame>
-                            </StackLayout>
-                            </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>
+                </StackLayout>
             </ScrollView>
 
             <!-- Barra de entrada de mensajes -->
-            <StackLayout Orientation="Horizontal" 
-                         Grid.Row="1" 
-                         VerticalOptions="End" 
-                         Spacing="10"
-                        
-                         BackgroundColor="#2C2F33"
-                         Padding="10,0,10,0">
-                
-
+            <StackLayout Orientation="Horizontal" Grid.Row="2" VerticalOptions="End" Spacing="10" BackgroundColor="#2C2F33" Padding="10,0,10,0">
                 <!-- Botón de Emoji -->
-                <Button Text="😊"
-                        FontSize="24"
-                        BackgroundColor="Transparent"
-                        TextColor="White"
-                        WidthRequest="60"
-                        HorizontalOptions="Start"/>
+                <Image Source="cara.png" WidthRequest="40"/>
 
                 <!-- Campo de entrada de mensajes -->
-                <Entry Placeholder="Mensaje"
-                       TextColor="White"
-                       BackgroundColor="#2C2F33"
-                     
-                       HorizontalOptions="FillAndExpand"
-                       VerticalOptions="Center"
-                       HeightRequest="40"
-                      
-                       />
+                <Entry Placeholder="Mensaje" TextColor="White" BackgroundColor="#2C2F33" HorizontalOptions="FillAndExpand" VerticalOptions="Center" HeightRequest="40"/>
 
                 <!-- Botón de cámara -->
-                <Button Text="📷"
-                        FontSize="24"
-                        BackgroundColor="Transparent"
-                        TextColor="White"
-                        WidthRequest="40"/>
+                <Image WidthRequest="50" Source="clip.png"/>
+
+                <Image WidthRequest="40" Source="cama.png"/>
 
                 <!-- Botón de enviar/grabar -->
-                <Button Text="🎤"
-                        FontSize="24"
-                        BackgroundColor="Green"
-                        TextColor="White"
-                        WidthRequest="40"
-                        HeightRequest="40"
-                        CornerRadius="20"/>
+                <Frame WidthRequest="50" HeightRequest="50" CornerRadius="50" BackgroundColor="#21c063">
+                    <Image Source="micro.png" WidthRequest="50" HeightRequest="50"/>
+                </Frame>
             </StackLayout>
-
         </Grid>
     </ContentPage.Content>
 </ContentPage>

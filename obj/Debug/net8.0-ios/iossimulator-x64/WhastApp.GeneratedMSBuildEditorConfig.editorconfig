@@ -46,12 +46,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.Comunidades.xaml
 build_metadata.AdditionalFiles.TargetPath = Comunidades.xaml
 build_metadata.AdditionalFiles.RelativePath = Comunidades.xaml
 
-[C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/WhastApp/General.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.General.xaml
-build_metadata.AdditionalFiles.TargetPath = General.xaml
-build_metadata.AdditionalFiles.RelativePath = General.xaml
-
 [C:/Users/alexd/OneDrive/Escritorio/5TO  SEMESTRE/PROGRAMACION MOVIL/WhastApp/Llamadas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WhastApp.Llamadas.xaml

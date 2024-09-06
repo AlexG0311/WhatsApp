@@ -13,5 +13,9 @@ namespace WhastApp.Model
         public string UltimoMensaje { get; set; }
         public string Hora { get; set; }
         public string Imagen { get; set; }
+        public string remitente { get; set; }
+        public string usuario { get; set; }
+
+        public ContentPage Page { get; set; }
     }
 }
